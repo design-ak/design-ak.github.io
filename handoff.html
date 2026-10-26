@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Handoff · Mobile Design System</title>
 <meta name="description" content="Flutter theme files, tokens and setup steps for developers.">
+<meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0D1117" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -16,7 +17,17 @@
 <a class="sr-only" href="#main">Skip to content</a>
 <header class="topbar">
   <button class="icon-btn menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sidebar"><svg class="icon " viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M150-240q-12.75 0-21.37-8.68-8.63-8.67-8.63-21.5 0-12.82 8.63-21.32 8.62-8.5 21.37-8.5h660q12.75 0 21.38 8.68 8.62 8.67 8.62 21.5 0 12.82-8.62 21.32-8.63 8.5-21.38 8.5H150Zm0-210q-12.75 0-21.37-8.68-8.63-8.67-8.63-21.5 0-12.82 8.63-21.32 8.62-8.5 21.37-8.5h660q12.75 0 21.38 8.68 8.62 8.67 8.62 21.5 0 12.82-8.62 21.32-8.63 8.5-21.38 8.5H150Zm0-210q-12.75 0-21.37-8.68-8.63-8.67-8.63-21.5 0-12.82 8.63-21.32 8.62-8.5 21.37-8.5h660q12.75 0 21.38 8.68 8.62 8.67 8.62 21.5 0 12.82-8.62 21.32-8.63 8.5-21.38 8.5H150Z"/></svg></button>
-  <a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1677D6"/><circle cx="11" cy="13" r="3.5" fill="#fff"/><circle cx="21" cy="13" r="3.5" fill="#fff" opacity=".7"/><path d="M5.5 24c.8-3.6 3-5.5 5.5-5.5s4.7 1.9 5.5 5.5z" fill="#fff"/><path d="M15.5 24c.8-3.6 3-5.5 5.5-5.5s4.7 1.9 5.5 5.5z" fill="#fff" opacity=".7"/></svg><span class="brand-name">Mobile Design System</span></a>
+  <a class="brand" href="index.html"><svg class="brand-mark" aria-hidden="true" focusable="false" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use xlink:href="#stroke0_6666_40" fill="#D9D9D9"/>
+<use xlink:href="#stroke0_6666_40" fill="url(#paint0_linear_6666_40)"/>
+<defs>
+<linearGradient id="paint0_linear_6666_40" x1="-36.684" y1="35.5236" x2="42.6902" y2="-44.5283" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0156C3"/>
+<stop offset="1" stop-color="#01BF84"/>
+</linearGradient>
+<path id="stroke0_6666_40" d="M80.7227 0C91.3691 0 100 8.63089 100 19.2773V80.7227C100 91.3691 91.3691 100 80.7227 100H19.2773C8.63089 100 0 91.3691 0 80.7227V19.2773C0 8.63089 8.63089 0 19.2773 0H80.7227ZM45.6016 24.0967L26.5059 75.4893H37.7656L41.3213 64.6533H59.792L63.3564 75.4893H74.6514L55.4502 24.0967H45.6016ZM57.0645 56.3584H44.043L50.5449 36.5391L57.0645 56.3584Z"/>
+</defs>
+</svg><span class="brand-name">Mobile Design System</span></a>
   <nav class="topbar-links" aria-label="Quick links">
     <a class="hide-sm" href="https://www.figma.com/design/JTvfvW2ahlDmuKujonnoyb/Mobile-Design-System" target="_blank" rel="noopener"><svg class="icon " viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h249q12.75 0 21.38 8.68 8.62 8.67 8.62 21.5 0 12.82-8.62 21.32-8.63 8.5-21.38 8.5H180v600h600v-249q0-12.75 8.68-21.38 8.67-8.62 21.5-8.62 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v249q0 24-18 42t-42 18H180Zm600-617L403-360q-9 9-21 8.5t-21-9.5q-9-9-9-21t9-21l377-377H549q-12.75 0-21.37-8.68-8.63-8.67-8.63-21.5 0-12.82 8.63-21.32 8.62-8.5 21.37-8.5h261q12.75 0 21.38 8.62Q840-822.75 840-810v261q0 12.75-8.68 21.37-8.67 8.63-21.5 8.63-12.82 0-21.32-8.63-8.5-8.62-8.5-21.37v-188Z"/></svg><span>Figma</span></a>
     <a href="handoff.html#downloads"><svg class="icon " viewBox="0 -960 960 960" aria-hidden="true" focusable="false"><path d="M469-327q-5-2-10-7L308-485q-9-9.27-8.5-21.64.5-12.36 9.11-21.36 9.39-9 21.89-9t21.5 9l98 99v-341q0-12.75 8.68-21.38 8.67-8.62 21.5-8.62 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v341l99-99q8.8-9 20.9-8.5 12.1.5 21.49 9.5 8.61 9 8.61 21.5t-9 21.5L501-334q-5 5-10.13 7-5.14 2-11 2-5.87 0-10.87-2ZM220-160q-24 0-42-18t-18-42v-113q0-12.75 8.68-21.38 8.67-8.62 21.5-8.62 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v113h520v-113q0-12.75 8.68-21.38 8.67-8.62 21.5-8.62 12.82 0 21.32 8.62 8.5 8.63 8.5 21.38v113q0 24-18 42t-42 18H220Z"/></svg><span>Downloads</span></a>
