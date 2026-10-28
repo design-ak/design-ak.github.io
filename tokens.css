@@ -1,0 +1,172 @@
+/* Design tokens — generated from tokens.json (Figma — AK Design System (JTvfvW2ahlDmuKujonnoyb), exported 2026-10-20). Do not edit by hand. */
+@font-face { font-family: "Roboto"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/roboto-400.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Noto Sans Gujarati"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/noto-sans-gujarati-400.woff2") format("woff2"); unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839; }
+@font-face { font-family: "Noto Sans Devanagari"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/noto-sans-devanagari-400.woff2") format("woff2"); unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09; }
+@font-face { font-family: "Roboto"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fonts/roboto-600.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Noto Sans Gujarati"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fonts/noto-sans-gujarati-600.woff2") format("woff2"); unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839; }
+@font-face { font-family: "Noto Sans Devanagari"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fonts/noto-sans-devanagari-600.woff2") format("woff2"); unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09; }
+@font-face { font-family: "Roboto"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/roboto-700.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Noto Sans Gujarati"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/noto-sans-gujarati-700.woff2") format("woff2"); unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839; }
+@font-face { font-family: "Noto Sans Devanagari"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/noto-sans-devanagari-700.woff2") format("woff2"); unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09; }
+:root {
+  --font-base: "Roboto", "Noto Sans Gujarati", "Noto Sans Devanagari", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, monospace;
+  --space-0: 0px;
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --radius-0: 0px;
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-full: 999px;
+  --elevation-sm: 0px 2px 4px 0px #00000014;
+  --elevation-lg: 0px 8px 24px 0px #00000029;
+  --elevation-sheet: 0px -4px 16px 0px #0000001F;
+}
+:root, [data-theme="light"] {
+  color-scheme: light;
+  --bg-screen: #FFFFFF;
+  --bg-surface: #F5F7F9;
+  --bg-surface-raised: #FFFFFF;
+  --bg-disabled: #E5EBF1;
+  --bg-primary-subtle: #E8F2FB;
+  --bg-scrim: #0D111780;
+  --border-subtle: #E5EBF1;
+  --border-default: #878E95;
+  --border-focus: #1677D6;
+  --text-primary: #0D1117;
+  --text-secondary: #43484D;
+  --text-tertiary: #6B7177;
+  --text-disabled: #C2C9CE;
+  --text-link: #1677D6;
+  --text-link-pressed: #1365B6;
+  --text-on-primary: #FFFFFF;
+  --icon-default: #43484D;
+  --icon-subtle: #6B7177;
+  --icon-disabled: #C2C9CE;
+  --primary-default: #1677D6;
+  --primary-pressed: #1365B6;
+  --status-neutral-surface: #E5EBF1;
+  --status-neutral-text: #43484D;
+  --status-info-surface: #E8F2FB;
+  --status-info-text: #1365B6;
+  --status-success-surface: #E9F8F3;
+  --status-success-text: #107A61;
+  --status-warning-surface: #FFF8DA;
+  --status-warning-text: #826400;
+  --status-error-surface: #FCEEEF;
+  --status-error-text: #B83C45;
+  --status-pending-surface: #F3EFFC;
+  --status-pending-text: #6346BF;
+}
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg-screen: #0D1117;
+  --bg-surface: #161B22;
+  --bg-surface-raised: #21262D;
+  --bg-disabled: #21262D;
+  --bg-primary-subtle: #12202E;
+  --bg-scrim: #000000B2;
+  --border-subtle: #30363D;
+  --border-default: #6B7177;
+  --border-focus: #3FA5F9;
+  --text-primary: #F5F7F9;
+  --text-secondary: #C2C9CE;
+  --text-tertiary: #878E95;
+  --text-disabled: #43484D;
+  --text-link: #3FA5F9;
+  --text-link-pressed: #3FA5F9;
+  --text-on-primary: #0D1117;
+  --icon-default: #C2C9CE;
+  --icon-subtle: #878E95;
+  --icon-disabled: #43484D;
+  --primary-default: #3FA5F9;
+  --primary-pressed: #2F8FE8;
+  --status-neutral-surface: #21262D;
+  --status-neutral-text: #C2C9CE;
+  --status-info-surface: #12202E;
+  --status-info-text: #3FA5F9;
+  --status-success-surface: #102C26;
+  --status-success-text: #2DD4A8;
+  --status-warning-surface: #302A16;
+  --status-warning-text: #FFD54F;
+  --status-error-surface: #321D23;
+  --status-error-text: #F07178;
+  --status-pending-surface: #211B30;
+  --status-pending-text: #B79CFF;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg-screen: #0D1117;
+    --bg-surface: #161B22;
+    --bg-surface-raised: #21262D;
+    --bg-disabled: #21262D;
+    --bg-primary-subtle: #12202E;
+    --bg-scrim: #000000B2;
+    --border-subtle: #30363D;
+    --border-default: #6B7177;
+    --border-focus: #3FA5F9;
+    --text-primary: #F5F7F9;
+    --text-secondary: #C2C9CE;
+    --text-tertiary: #878E95;
+    --text-disabled: #43484D;
+    --text-link: #3FA5F9;
+    --text-link-pressed: #3FA5F9;
+    --text-on-primary: #0D1117;
+    --icon-default: #C2C9CE;
+    --icon-subtle: #878E95;
+    --icon-disabled: #43484D;
+    --primary-default: #3FA5F9;
+    --primary-pressed: #2F8FE8;
+    --status-neutral-surface: #21262D;
+    --status-neutral-text: #C2C9CE;
+    --status-info-surface: #12202E;
+    --status-info-text: #3FA5F9;
+    --status-success-surface: #102C26;
+    --status-success-text: #2DD4A8;
+    --status-warning-surface: #302A16;
+    --status-warning-text: #FFD54F;
+    --status-error-surface: #321D23;
+    --status-error-text: #F07178;
+    --status-pending-surface: #211B30;
+    --status-pending-text: #B79CFF;
+  }
+}
+.t-heading-h1 { font: 600 32px/40px var(--font-base); letter-spacing: 0px; }
+.t-heading-h1-bold { font: 700 32px/40px var(--font-base); letter-spacing: 0px; }
+.t-heading-h2 { font: 600 24px/32px var(--font-base); letter-spacing: 0px; }
+.t-heading-h2-bold { font: 700 24px/32px var(--font-base); letter-spacing: 0px; }
+.t-heading-h3 { font: 600 20px/28px var(--font-base); letter-spacing: 0px; }
+.t-heading-h3-bold { font: 700 20px/28px var(--font-base); letter-spacing: 0px; }
+.t-heading-h4 { font: 600 18px/26px var(--font-base); letter-spacing: 0px; }
+.t-heading-h4-bold { font: 700 18px/26px var(--font-base); letter-spacing: 0px; }
+.t-body-lg { font: 400 18px/28px var(--font-base); letter-spacing: 0px; }
+.t-body-lg-bold { font: 700 18px/28px var(--font-base); letter-spacing: 0px; }
+.t-body-md { font: 400 16px/24px var(--font-base); letter-spacing: 0px; }
+.t-body-md-strong { font: 600 16px/24px var(--font-base); letter-spacing: 0px; }
+.t-body-md-bold { font: 700 16px/24px var(--font-base); letter-spacing: 0px; }
+.t-body-sm { font: 400 14px/22px var(--font-base); letter-spacing: 0px; }
+.t-body-sm-strong { font: 600 14px/22px var(--font-base); letter-spacing: 0px; }
+.t-body-sm-bold { font: 700 14px/22px var(--font-base); letter-spacing: 0px; }
+.t-label { font: 600 12px/18px var(--font-base); letter-spacing: 0.2px; }
+.t-label-bold { font: 700 12px/18px var(--font-base); letter-spacing: 0.2px; }
+.t-caption { font: 400 12px/18px var(--font-base); letter-spacing: 0.2px; }
+.t-caption-bold { font: 700 12px/18px var(--font-base); letter-spacing: 0.2px; }
+.t-button-lg { font: 600 16px/24px var(--font-base); letter-spacing: 0.2px; }
+.t-button-md { font: 600 14px/20px var(--font-base); letter-spacing: 0.2px; }
+.t-button-sm { font: 600 12px/18px var(--font-base); letter-spacing: 0.2px; }
+.t-button-xs { font: 600 10px/14px var(--font-base); letter-spacing: 0.2px; }
