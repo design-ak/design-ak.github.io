@@ -2,11 +2,11 @@
 
 Oct 20, 2026 · @Mehul Gohil
 
-Build the community app UI from the Figma file and the generated theme files; every colour, spacing, radius and text style in code comes from those tokens, never a typed value.
+Build the AK Mob App UI from the Figma file and the generated theme files; every colour, spacing, radius and text style in code comes from those tokens, never a typed value.
 
 ## What you get
 
-Two things: the [Mobile Design System](https://www.figma.com/design/JTvfvW2ahlDmuKujonnoyb/Mobile-Design-System) Figma file (open it in Dev Mode) and a `lib/theme/` folder generated from its variables.
+Two things: the AK Design System Figma file (open it in Dev Mode) and a `lib/theme/` folder generated from its variables.
 
 | Item | What it holds | Use it for |
 | --- | --- | --- |

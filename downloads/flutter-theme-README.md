@@ -1,6 +1,6 @@
 # Design system theme — Flutter
 
-Generated from the Figma file **Mobile Design System** (variables + text/effect styles).
+Generated from the Figma file **AK Design System** (variables + text/effect styles).
 Do not edit values by hand — change them in Figma and regenerate.
 
 Requires **Flutter 3.22+** (Dart 3). Run `dart format lib/theme` after copying the files in.

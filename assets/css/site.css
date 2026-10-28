@@ -42,7 +42,8 @@ code, pre, kbd { font-family: var(--font-mono); font-size: 13px; }
 .brand { display: flex; align-items: center; gap: var(--space-10); color: var(--text-primary); text-decoration: none; }
 .brand:hover { color: var(--text-primary); }
 .brand-mark { width: 32px; height: 32px; }
-.brand-name { font-size: 16px; line-height: 24px; font-weight: 600; }
+.brand-beta { margin-left: calc(var(--space-8) * -1 + 2px); }
+.brand-name { font-size: 16px; line-height: 24px; font-weight: 600; white-space: nowrap; }
 .brand-ver { font-size: 12px; line-height: 18px; color: var(--text-tertiary); font-weight: 400; margin-left: 2px; }
 .topbar-links { display: flex; gap: var(--space-4); margin-left: auto; align-items: center; }
 .topbar-links a {
@@ -553,6 +554,10 @@ td:first-child { color: var(--text-primary); }
   .dl-actions { grid-column: 1 / -1; }
   .demo-body { padding: var(--space-24) var(--space-16); }
   .topbar-links a span { display: none; }
+  .topbar { gap: var(--space-8); }
+  .brand { gap: var(--space-8); }
+  .brand-name { font-size: 15px; }
+  .brand-beta { margin-left: 0; }
   .brand-ver { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -561,4 +566,11 @@ td:first-child { color: var(--text-primary); }
 @media print {
   .topbar, .sidebar { display: none; }
   .layout { display: block; }
+}
+@media (max-width: 400px) {
+  .topbar-links a { display: none; }
+}
+@media (max-width: 340px) {
+  .brand-name { font-size: 13px; }
+  .brand-mark { width: 28px; height: 28px; }
 }
